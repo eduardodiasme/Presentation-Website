@@ -5,6 +5,14 @@ body {
     font-weight: bold;
 }
 
+.container {
+    max-width: 50%;
+    margin: auto; /* Centralizar horizontalmente */
+    display: flex;
+    flex-direction: column; /* Alinhar os itens verticalmente */
+    align-items: center;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -23,6 +31,7 @@ header img {
     height: 150px;
     border-radius: 50%;
     border: 5px solid black;
+    margin-top: 5%;
 }
 
 .center {
@@ -44,7 +53,7 @@ footer img {
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 4%;
     display: flex;
     justify-content: center;
 }
